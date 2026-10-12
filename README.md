@@ -9,7 +9,7 @@ Projekt będzie składał się z czterech plików Java. Każdy z nich będzie od
 Po włączeniu programu pojawi się okno z planszą z przyciskami. Niektóre pola będą miały ukryte miny. Gracz będzie odkrywał pola, klikając przycisk.
 
 - Jeśli gracz odkryje pole z miną, przegrywa.
-Jeśli pole nie ma miny, pojawi się liczba min na sąsiednich polach.
+- Jeśli pole nie ma miny, pojawi się liczba min na sąsiednich polach.
 Gracz wygrywa, gdy odkryje wszystkie pola, które nie mają min.
 Po zakończeniu gry pojawi się komunikat o wygranej lub przegranej.
 
