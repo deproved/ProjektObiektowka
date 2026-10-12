@@ -1,5 +1,3 @@
-## Saper
-
 # 1. Cel projektu
 
 Celem projektu jest stworzenie gry Saper w języku Java z graficznym interfejsem użytkownika (GUI). Gra będzie używać programowania obiektowego, w tym dziedziczenia. Interfejs zostanie wykonany przy użyciu biblioteki Swing. Pozwala ona tworzyć okna, przyciski i obsługiwać zdarzenia.
