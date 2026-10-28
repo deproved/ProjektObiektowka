@@ -1,11 +1,7 @@
 public class Pole {
-    protected boolean odkryte;
-    protected int liczbaMin;
-
-    public Pole() {
-        this.odkryte = false;
-        this.liczbaMin = 0;
-    }
+    private boolean odkryte;
+    private boolean flaga;
+    private int sasiedniMiny;
 
     public boolean czyJestMina() {
         return false;
@@ -19,11 +15,21 @@ public class Pole {
         return odkryte;
     }
 
-    public int getLiczbaMin() {
-        return liczbaMin;
+    public boolean czyFlaga() {
+        return flaga;
     }
 
-    public void setLiczbaMin(int liczbaMin) {
-        this.liczbaMin = liczbaMin;
+    public void przelaczFlage() {
+        if (!odkryte) {
+            flaga = !flaga;
+        }
+    }
+
+    public int getSasiedniMiny() {
+        return sasiedniMiny;
+    }
+
+    public void setSasiedniMiny(int sasiedniMiny) {
+        this.sasiedniMiny = sasiedniMiny;
     }
 }
